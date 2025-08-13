@@ -148,6 +148,6 @@ if st.button("Run Optimization"):
     drawdown_cvar = calculate_drawdown(cum_cvar)
     drawdown_equal = calculate_drawdown(cum_equal)
 
-    st.subheader("Drawdowns")
+    st.subheader("Drawdown Comparison")
     st.pyplot(plot_drawdowns(returns.index, drawdown_cvar, drawdown_equal))
     st.write("Drawdown closer to 0 = smaller losses; CVaR-optimized portfolio should have smaller extreme drops compared to equal-weight.")
