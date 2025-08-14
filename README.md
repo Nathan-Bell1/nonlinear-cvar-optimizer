@@ -4,20 +4,35 @@ A comprehensive portfolio optimization tool that uses **Conditional Value at Ris
 
 Built with Streamlit for interactive web-based analysis.
 
+
+## Interface Preview
+
+### Main Interface
+![Portfolio Optimizer Interface](Demo/streamlit1.png)
+
+### Cumulative Returns Comparison
+![Portfolio Weights](Demo/streamlit3.png)
+
+### Drawdown Comparison
+![Performance Comparison](Demo/streamlit4.png)
+
 ## Mathematical Model
 
 The optimization solves the following convex problem:
 
 **Objective Function:**
-$\text{minimize} \quad \text{CVaR}_\alpha = \nu + \frac{1}{1-\alpha} \cdot \frac{1}{T} \sum_{t=1}^{T} \xi_t$
+
+$$\text{minimize} \quad \text{CVaR}_\alpha = \nu + \frac{1}{1-\alpha} \cdot \frac{1}{T} \sum_{t=1}^{T} \xi_t$$
 
 **Subject to:**
-$\begin{align}
-\sum_{i=1}^{n} w_i &= 1 && \text{(budget constraint)} \\
-w_i &\geq 0 && \text{(long-only positions)} \\
-\xi_t &\geq -\mathbf{r}_t^T \mathbf{w} - \nu && \text{(CVaR auxiliary variables)} \\
-\boldsymbol{\mu}^T \mathbf{w} &\geq r_{\text{target}} && \text{(minimum return constraint)}
-\end{align}$
+
+$$\sum_{i=1}^{n} w_i = 1 \quad \text{(budget constraint)}$$
+
+$$w_i \geq 0 \quad \text{(long-only positions)}$$
+
+$$\xi_t \geq -\mathbf{r}_t^T \mathbf{w} - \nu \quad \text{(CVaR auxiliary variables)}$$
+
+$$\boldsymbol{\mu}^T \mathbf{w} \geq r_{\text{target}} \quad \text{(minimum return constraint)}$$
 
 **Decision Variables:**
 - $\mathbf{w} \in \mathbb{R}^n$ = portfolio weights vector
@@ -32,17 +47,6 @@ w_i &\geq 0 && \text{(long-only positions)} \\
 - $T$ = number of historical scenarios
 - $n$ = number of assets
 
-## Interface Preview
-
-### Main Interface
-![Portfolio Optimizer Interface](Demo/streamlit1.png)
-
-### Cumulative Returns Comparison
-![Portfolio Weights](Demo/streamlit3.png)
-
-### Drawdown Comparison
-![Performance Comparison](Demo/streamlit4.png)
-
 ## Features
 
 - **Interactive Portfolio Optimization**: Web-based interface for real-time portfolio construction
@@ -54,7 +58,6 @@ w_i &\geq 0 && \text{(long-only positions)} \\
   - Cumulative return comparisons
   - Drawdown analysis
 - **Risk-Return Trade-offs**: Adjustable minimum return targets and confidence levels
-
 
 
 ## Installation
