@@ -11,7 +11,7 @@ A comprehensive portfolio optimization tool that uses **Conditional Value at Ris
 ![Portfolio Optimizer Interface](Demo/streamlit1.png)
 
 ### Cumulative Returns Comparison
-<<<<<<< Updated upstream
+
 ![Portfolio Weights](Demo/streamlit3.png)
 
 ### Drawdown Comparison
@@ -21,7 +21,7 @@ A comprehensive portfolio optimization tool that uses **Conditional Value at Ris
 
 ### Drawdown Comparison
 ![Drawdown Comparison](Demo/streamlit4.png)
->>>>>>> Stashed changes
+
 
 ## Mathematical Model
 
@@ -29,11 +29,7 @@ The optimization solves the following convex problem:
 
 **Objective Function:**
 
-<<<<<<< Updated upstream
-$$\min \;\; \mathrm{CVaR}_\alpha = \nu + \frac{1}{1-\alpha} \cdot \frac{1}{T} \sum_{t=1}^{T} \xi_t$$
-=======
 ![Latex Objective ](Demo/latex1.png)
->>>>>>> Stashed changes
 
 **Subject to:**
 
