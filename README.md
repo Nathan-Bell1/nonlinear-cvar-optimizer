@@ -1,8 +1,8 @@
 # Mean-CVaR Portfolio Optimization
 
-A comprehensive portfolio optimization tool that uses **Conditional Value at Risk (CVaR)** to construct optimal portfolios that minimize tail risk while meeting return targets. Unlike traditional mean-variance optimization, CVaR focuses on minimizing expected losses in worst-case scenarios through a **convex optimization framework** that guarantees globally optimal solutions, making it particularly valuable for risk-conscious investors.
+A comprehensive portfolio optimization tool that uses **Conditional Value at Risk (CVaR)** to construct optimal portfolios that minimize tail risk while meeting return targets. The implementation uses **linear algebra and matrix operations** to formulate the convex optimization problem, ensuring globally optimal solutions through efficient constraint handling and portfolio weight calculations.
 
-Built with Streamlit for interactive web-based analysis.
+**Technology Stack:** Built with **Streamlit** for interactive visualization, **CVXPY** for convex optimization, **NumPy** for matrix computations and linear algebra, **Pandas** for data processing, **Matplotlib** for charting, and **yfinance** for financial data.
 
 
 ## Interface Preview
