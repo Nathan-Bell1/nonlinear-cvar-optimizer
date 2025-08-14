@@ -29,6 +29,8 @@ The optimization solves the following convex problem:
 
 **Objective Function:**
 
+#### We are minimizing:
+
 ![equation](https://latex.codecogs.com/svg.image?\color{white}\text{CVaR}_\alpha=\nu&plus;\frac{1}{1-\alpha}\cdot\frac{1}{T}\sum_{t=1}^{T}\xi_t)
 
 **Subject to:**
