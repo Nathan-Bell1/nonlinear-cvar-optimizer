@@ -22,8 +22,9 @@ The optimization solves the following convex problem:
 
 **Objective Function:**
 
-$$\text{minimize} \quad \text{CVaR}_\alpha = \nu + \frac{1}{1-\alpha} \cdot \frac{1}{T} \sum_{t=1}^{T} \xi_t$$
-
+$$
+\text{minimize} \quad \text{CVaR}_\alpha = \nu + \frac{1}{1-\alpha} \cdot \frac{1}{T} \sum_{t=1}^{T} \xi_t
+$$
 **Subject to:**
 
 $$\sum_{i=1}^{n} w_i = 1 \quad \text{(budget constraint)}$$
