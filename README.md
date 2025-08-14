@@ -22,7 +22,7 @@ The optimization solves the following convex problem:
 
 **Objective Function:**
 
-$$\min \; \mathrm{CVaR}_\alpha = \nu + \frac{1}{1-\alpha} \cdot \frac{1}{T} \sum_{t=1}^{T} \xi_t$$
+$$\min \;\; \mathrm{CVaR}_\alpha = \nu + \frac{1}{1-\alpha} \cdot \frac{1}{T} \sum_{t=1}^{T} \xi_t$$
 
 **Subject to:**
 
