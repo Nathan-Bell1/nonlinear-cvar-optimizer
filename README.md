@@ -17,11 +17,6 @@ A comprehensive portfolio optimization tool that uses **Conditional Value at Ris
 ### Drawdown Comparison
 ![Performance Comparison](Demo/streamlit4.png)
 =======
-![Return Comparison](Demo/streamlit3.png)
-
-### Drawdown Comparison
-![Drawdown Comparison](Demo/streamlit4.png)
-
 
 ## Mathematical Model
 
@@ -31,7 +26,7 @@ The optimization solves the following convex problem:
 
 #### We are minimizing:
 
-![equation](https://latex.codecogs.com/svg.image?\color{red}\text{CVaR}_\alpha=\nu&plus;\frac{1}{1-\alpha}\cdot\frac{1}{T}\sum_{t=1}^{T}\xi_t)
+![equation](https://latex.codecogs.com/svg.image?\color{blue}\text{CVaR}_\alpha=\nu&plus;\frac{1}{1-\alpha}\cdot\frac{1}{T}\sum_{t=1}^{T}\xi_t)
 
 **Subject to:**
 
