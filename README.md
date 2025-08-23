@@ -28,6 +28,10 @@ The optimization solves the following convex problem:
 
 ![equation](https://latex.codecogs.com/svg.image?\color{green}\text{CVaR}_\alpha=\nu&plus;\frac{1}{1-\alpha}\cdot\frac{1}{T}\sum_{t=1}^{T}\xi_t)
 
+$$
+\text{CVaR}_{\alpha} = \nu + \frac{1}{1-\alpha} \cdot \frac{1}{T} \sum_{t=1}^{T} \xi_t
+$$
+
 **Subject to:**
 
 $$\sum_{i=1}^{n} w_i = 1 \quad \text{(budget constraint)}$$
