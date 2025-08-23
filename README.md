@@ -30,9 +30,24 @@ The optimization solves the following convex problem:
 
 $$\mathrm{CVaR}_{\alpha} = \nu + \Big(\frac{1}{1-\alpha}\Big)\Big(\frac{1}{T}\Big)\sum_{t=1}^{T}\xi_{t}$$
 
-$$\mathrm{CVaR}_{\alpha} = \nu + \Big(\frac{1}{1-\alpha}\Big)\Big(\frac{1}{T}\Big)$$
+<table>
+<tr>
+<td>
 
-$$\mathrm\sum_{t=1}^{T}\xi_{t}$$
+$$
+\mathrm{CVaR}_{\alpha} = \nu + \left(\frac{1}{1-\alpha}\right)\left(\frac{1}{T}\right)
+$$
+
+</td>
+<td>
+
+$$
+\sum_{t=1}^{T}\xi_{t}
+$$
+
+</td>
+</tr>
+</table>
 
 
 
