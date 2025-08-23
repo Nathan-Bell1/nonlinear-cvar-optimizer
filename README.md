@@ -28,9 +28,7 @@ The optimization solves the following convex problem:
 
 ![equation](https://latex.codecogs.com/svg.image?\color{green}\text{CVaR}_\alpha=\nu&plus;\frac{1}{1-\alpha}\cdot\frac{1}{T}\sum_{t=1}^{T}\xi_t)
 
-$$\mathrm{CVaR}_{\alpha} = \nu + \Big(\frac{1}{1-\alpha}\Big)\Big(\frac{1}{T}\Big)\sum_{t=1}^{T}\xi_{t}$$
-
-$$\mathrm{CVaR}_{\alpha} = \nu + \Big(\frac{1}{1-\alpha}\Big)\Big(\frac{1}{T}\Big)$$
+$$\mathrm{CVaR}_{\alpha} = \nu + \Big(\frac{1}{1-\alpha}\Big)\Big(\frac{1}{T}\Big)\sum_{t=1}^{T}\xi_{t}$$ $$\mathrm{CVaR}_{\alpha} = \nu + \Big(\frac{1}{1-\alpha}\Big)\Big(\frac{1}{T}\Big)$$
 
 $$\mathrm\sum_{t=1}^{T}\xi_{t}$$
 
