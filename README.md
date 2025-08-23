@@ -26,29 +26,7 @@ The optimization solves the following convex problem:
 
 #### We are minimizing:
 
-![equation](https://latex.codecogs.com/svg.image?\color{green}\text{CVaR}_\alpha=\nu&plus;\frac{1}{1-\alpha}\cdot\frac{1}{T}\sum_{t=1}^{T}\xi_t)
-
-$$\mathrm{CVaR}_{\alpha} = \nu + \Big(\frac{1}{1-\alpha}\Big)\Big(\frac{1}{T}\Big)\sum_{t=1}^{T}\xi_{t}$$
-
-<table>
-<tr>
-<td>
-
-$$
-\mathrm{CVaR}_{\alpha} = \nu + \left(\frac{1}{1-\alpha}\right)\left(\frac{1}{T}\right)
-$$
-
-</td>
-<td>
-
-$$
-\sum_{t=1}^{T}\xi_{t}
-$$
-
-</td>
-</tr>
-</table>
-
+![equation](https://latex.codecogs.com/svg.image?\color{white}\text{CVaR}_\alpha=\nu&plus;\frac{1}{1-\alpha}\cdot\frac{1}{T}\sum_{t=1}^{T}\xi_t)
 
 
 **Subject to:**
